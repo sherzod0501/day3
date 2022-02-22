@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/fonts/Gilroy-Medium.woff2") format("woff2"),
+        url("../fonts/fonts/Gilroy-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fonts/fonts/Gilroy-Medium.woff2") format("woff2"),
+        url("../fonts/fonts/Gilroy-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight:bold;
+    font-display: swap;
+    src: url("../fonts/fonts/Gilroy-Medium.woff2") format("woff2"),
+        url("../fonts/fonts/Gilroy-Medium.woff") format("woff");
+}
+ 
+ *
+ *::before
+ *::after{
+     box-sizing: border-box;
+ }
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'giroy', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0 ;
+}
+
+ .container {
+     max-width: 1450px;
+     padding: 0px 30px;
+ }
+
+ .header_top {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 1px solid #eeeeee;
+ }
+
+ .header_top-left {
+     display: flex;
+     align-items: center;
+ }
+
+ .header_top-text {
+     display: flex;
+     align-items: center;
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 13px;
+     line-height: 15px;
+ }
+
+.header_top-text::before{
+    content: '';
+    width: 13px;
+    height: 16px;
+    display: block;
+    background-image: url(../image/location.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+}
+
+ .header_top-link {
+     display: flex;
+     text-decoration: none;
+     color: #000000;
+     margin-left: 30px;
+     font-family: 'Gilroy';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 13px;
+     line-height: 15px;
+ }
+
+ .header_top-link::before {
+    content: '';
+    width: 20px;
+    height: 16px;
+    display: block;
+    background-image: url(../image/mail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 9px;
+}
+
+.header_top-right {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    margin-right: 30px;
+    border: none;
+}
+
+.option {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+
+.top_right-right {
+    display: flex;
+    gap: 20px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+.bottom-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 29px;
+    margin-left: 300px;
+    
+}
+
+.bottom-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bottom-link:hover {
+    color: #76A713;
+}
+
+.bottom-link_one {
+    text-decoration: none;
+    color: #76A713;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.bottom-login {
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+
+}
+
+.login-link {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #76A713;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.login-link:hover {
+    background-color: aqua;
+    color: red;
+}
+
+.search-btn {
+    display: inline-block;
+    background-image: url(../image/search.png);
+    width: 40px;
+    height: 40px;
+    color: #eeeeee;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    margin-left: 10px;
+}
+
+.korzinka-btn {
+    display: inline-block;
+    background-image: url(../image/korzinka.png);
+    width: 40px;
+    height: 40px;
+    color: #eeeeee;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    margin-left: 10px;
+}
