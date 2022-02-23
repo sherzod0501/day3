@@ -22,6 +22,15 @@
     src: url("../fonts/fonts/Gilroy-Medium.woff2") format("woff2"),
         url("../fonts/fonts/Gilroy-Medium.woff") format("woff");
 }
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight:500;
+    font-display: swap;
+    src: url("../fonts/fonts/oswald-v41-latin-500.woff2") format("woff2"),
+        url("../fonts/fonts/oswald-v41-latin-500.woff") format("woff");
+}
  
  *
  *::before
@@ -40,7 +49,7 @@ body {
 
  .container {
      max-width: 1450px;
-     padding: 0px 30px;
+     padding: 0px 112px;
  }
 
  .header_top {
@@ -48,6 +57,8 @@ body {
      align-items: center;
      justify-content: space-between;
      border-bottom: 1px solid #eeeeee;
+     padding-top: 17px;
+     padding-bottom: 17px;
  }
 
  .header_top-left {
@@ -126,6 +137,7 @@ body {
 .header-bottom {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 46px;
     padding-bottom: 46px;
 }
@@ -136,8 +148,6 @@ body {
     align-items: center;
     list-style-type: none;
     gap: 29px;
-    margin-left: 300px;
-    
 }
 
 .bottom-link {
@@ -167,8 +177,6 @@ body {
 .bottom-login {
     display: flex;
     align-items: center;
-    margin-left: 220px;
-
 }
 
 .login-link {
@@ -210,4 +218,187 @@ body {
     background-position: center;
     border:none;
     margin-left: 10px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    background-color: rgba(118, 167, 19, 0.31);
+}
+
+.body-hero {
+    margin-top: 2px;
+}
+
+.body-left {
+position: absolute;
+left: 120px;
+}
+
+
+.body-head {
+    width: 330px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 74px;
+}
+
+.body-head-small {
+    color: #76A713;
+}
+
+.body-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 16px 38px;
+    background-color: #76A713;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.body-link:hover{
+    background-color: aqua;
+    color: red;
+}
+
+.bcgr-img {
+    width: 684px;
+    height: 440px;
+    margin-left:620px;
+    background-image: url(../image/fondue-food-tomato-garlic-italian-cuisine-garlic-a8c5731a222b7794b55ceb6847cdffca\ 1\ \(1\).png);
+}
+
+.arrow-left {
+    display: inline-block;
+    background-image: url(../image/Arrow1.png);
+    width: 40px;
+    height: 40px;
+    background-color: #76A713;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    position: absolute;
+    left: 45px;
+    top:410px;
+    margin-top: 130px;
+    margin-left: -15px;
+}
+
+.arrow-right {
+    display: inline-block;
+    background-image:url(../image/arrow-right.png);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(118, 167, 19, 0.31);
+    background-repeat: no-repeat;
+    background-position: center;
+    border:1px solid #76A713;
+    position: absolute;
+    right: 45px;
+    bottom: 170px;
+    margin-top: -148px;
+    margin-left: 1155px;
+}
+
+.section_one {
+    width: 1170px;
+    background-color: #ffffff;
+    margin-left: 130px;
+    margin-top: -95px;
+    background: #FFFFFF;
+    border: 1.5px solid #DDDDDD;
+    box-sizing: border-box;
+
+}
+
+.section-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between; 
+    margin: 70px 40px;
+}
+
+
+.item-one::before {
+    content: '';
+    width: 60px;
+    height: 40px;
+    display: block;
+    background-image: url(../image/Vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -70px;
+    margin-bottom: -65px;
+}
+
+.item-two::before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../image/home.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -70px;
+    margin-bottom: -75px;
+}
+
+.item-three::before {
+    content: '';
+    width: 60px;
+    height: 54px;
+    display: block;
+    background-image: url(../image/icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -70px;
+    margin-bottom: -75px;
+}
+
+.item-four::before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../image/XMLID_295_.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -70px;
+    margin-bottom: -75px;
+}
+
+.section-head {
+    margin: 0 auto;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;    
+}
+
+.section-text{
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;    
+}
+
+.item-span, line {
+    width: 1px;
+    height: 60px;
+    background-color: #dddddd;
+    margin-left: -80px;
+    border: 2px;
 }
