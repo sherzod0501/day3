@@ -48,8 +48,9 @@ body {
 }
 
  .container {
-     max-width: 1450px;
-     padding: 0px 112px;
+     max-width: 1224px;
+     padding: 0px 50px;
+     margin: 0 auto;
  }
 
  .header_top {
